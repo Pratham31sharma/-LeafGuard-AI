@@ -139,29 +139,6 @@ To train your own model:
 
 ---
 
-## 📁 Project Structure
-
-```
-PlantDiseaseSpotter/
-├── data/                   # Dataset directory
-├── frontend/              # Streamlit frontend
-│   └── app.py
-├── src/                   # Backend source code
-│   ├── api.py            # FastAPI server
-│   ├── pipeline.py       # Main processing pipeline
-│   ├── classify.py       # Disease classification
-│   ├── extract_features.py # Feature extraction
-│   ├── heatmap_utils.py  # Grad-CAM visualization
-│   ├── severity_estimator.py # Severity analysis
-│   ├── generate_report.py # PDF report generation
-│   ├── models.py         # Database models
-│   └── train_model.py    # Model training script
-├── requirements.txt       # Python dependencies
-└── README.md            # This file
-```
-
----
-
 ## 🚀 Deployment
 
 ### Local Development
